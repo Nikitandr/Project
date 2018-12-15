@@ -185,9 +185,9 @@ class Ui_MainWindow(object):
         self.buy = QtWidgets.QPushButton(self.centralwidget)
         self.buy.setGeometry(QtCore.QRect(440, 40, 75, 23))
         self.buy.setObjectName("buy")
-        self.total = QtWidgets.QTextEdit(self.centralwidget)
-        self.total.setGeometry(QtCore.QRect(480, 0, 101, 31))
-        self.total.setObjectName("total")
+        self.totals = QtWidgets.QTextEdit(self.centralwidget)
+        self.totals.setGeometry(QtCore.QRect(480, 0, 101, 31))
+        self.totals.setObjectName("totals")
         self.tickets = QtWidgets.QTextEdit(self.centralwidget)
         self.tickets.setGeometry(QtCore.QRect(380, 0, 101, 31))
         self.tickets.setObjectName("tickets")
@@ -287,7 +287,7 @@ class Ui_MainWindow(object):
         self.line1_place10.setText(_translate("MainWindow", "10"))
         self.line2_place10.setText(_translate("MainWindow", "10"))
         self.buy.setText(_translate("MainWindow", "Купить"))
-        self.total.setHtml(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+        self.totals.setHtml(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'MS Shell Dlg 2\'; font-size:8.25pt; font-weight:400; font-style:normal;\">\n"
